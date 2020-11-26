@@ -11,7 +11,7 @@ The analysis involves three essential steps:
 The code is split into several .R scripts and are used as follows:
 
 1)
-ExpandsRun.R - Using EXPANDS to measure ITH in all available samples with sufficient data. The measure of ITH used in this analysis is the number of genetically distinct cellular subpopulations (SPs) withing the tumor. Expands uses Single Nucleotide Variants derived from WES data and Copy Number Variants derived from microarrays through the TCGA computational pipelines. This piece of code is mostly formatting the data to be used as input ot 
+ExpandsRun.R - Using EXPANDS to measure ITH in all available samples with sufficient data. The measure of ITH used in this analysis is the number of genetically distinct cellular subpopulations (SPs) withing the tumor. Expands uses Single Nucleotide Variants derived from WES data and Copy Number Variants derived from microarrays through the TCGA computational pipelines. 
 
 2)
 DEA_input.R - Split samples into groups of low- and high ITH based on EXPANDS and PhyloWGS separately and for each cancer type separately
